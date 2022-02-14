@@ -22,7 +22,7 @@ darkmode: true
 # flickr_username: jekyll
 # instagram_username: jameswgrant
 linkedin_username: gregorkoenig
-xing_username: gkoenig
+xing_username: Gregor_Koenig10
 twitter_username: gkoenig
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -49,7 +49,9 @@ twitter_username: gkoenig
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   Hi, I am a professional, self-motivated, and open-minded person with experience as engineering manager, software engineer, international project manager, and lecturer. I am passionate about technology and developing amazing solutions together with like-minded people. It is highly rewarding to support people in their professional journey and help them grown, thrive and prosper. 
+  
   My technological focus lies on the research and development of secure communication and connectivity, (bio-)signal-processing, safety-critical embedded real-time systems, and their application in different fields. 
+  
   I love science and I hold a PhD in Biomedical Engineering.
 
 content:
@@ -57,6 +59,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Barracuda Networks
         link: barracuda.com
         # link_text: boringcompany.com
@@ -73,6 +76,7 @@ content:
         caption: 2014 - 2018
 
       - layout: left
+        border: weak
         title: Austrian Institute of Technology
         link: ait.ac.at
         # link_text: boringcompany.com
@@ -82,6 +86,7 @@ content:
              At the AIT I had the opportunity to work on my PhD research as a scientist in the field of bio-signal processing for medical devices. I also worked on other safety-critical aspects of medical products. During these four years I finished my PhD thesis at the Medical University of Vienna and was a lecturer at the Technical University of Vienna.
 
       - layout: left
+        border: weak
         title: Frequentis AG
         link: frequentis.com
         # link_text: boringcompany.com
@@ -94,6 +99,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Medical University of Vienna
         caption: 2009 - 2012
         sub_title: PhD Biomedical Engineering
@@ -103,14 +109,16 @@ content:
           During my time at Medical University if Vienna I did my PhD research in the field of bio-signal analysis (EEG, EOG, EMG) and the quantification of sleepiness and sleep quality. In 2012 I successfully finished my research and defended my [PhD thesis](https://www.amazon.de/EEG-based-Model-Daytime-Vigilance-Trends/dp/3838150848).
 
       - layout: left
+        border: weak
         title: University of Salzburg
         caption: 2010 - 2013
         sub_title: MSc and BSc Computer Science
 
-  - title: Philanthropic activities
+  - title: Philanthropic Activities
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top-middle
+        border: weak
         title: Feigenhain Initiative
         link: feigenhain.org
         caption: 2018 - Present
@@ -120,6 +128,7 @@ content:
 
   - title: A Little More About Me
     layout: text
+    border: weak
     content: | # this will include new lines to allow paragraphs
       Besides of my passion for technology my other interests and hobbies include
       - [Outdoor Sports](https://www.strava.com/athletes/mrgregor)
@@ -129,7 +138,7 @@ content:
       - [Ilex paraguariensis](https://en.wikipedia.org/wiki/Yerba_mate)	
       
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
