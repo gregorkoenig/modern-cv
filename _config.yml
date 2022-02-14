@@ -69,6 +69,7 @@ content:
           We build enterprise-grade, cloud-ready security solutions.
 
       - layout: left
+        border: weak
         title: University of Applied Sciences Technikum Wien
         link: www.technikum-wien.at
         # link_text: boringcompany.com
@@ -86,7 +87,6 @@ content:
              At the AIT I had the opportunity to work on my PhD research as a scientist in the field of bio-signal processing for medical devices. I also worked on other safety-critical aspects of medical products. During these four years I finished my PhD thesis at the Medical University of Vienna and was a lecturer at the Technical University of Vienna.
 
       - layout: left
-        border: weak
         title: Frequentis AG
         link: frequentis.com
         # link_text: boringcompany.com
@@ -109,7 +109,6 @@ content:
           During my time at Medical University if Vienna I did my PhD research in the field of bio-signal analysis (EEG, EOG, EMG) and the quantification of sleepiness and sleep quality. In 2012 I successfully finished my research and defended my [PhD thesis](https://www.amazon.de/EEG-based-Model-Daytime-Vigilance-Trends/dp/3838150848).
 
       - layout: left
-        border: weak
         title: University of Salzburg
         caption: 2010 - 2013
         sub_title: MSc and BSc Computer Science
@@ -118,7 +117,6 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        border: weak
         title: Feigenhain Initiative
         link: feigenhain.org
         caption: 2018 - Present
@@ -128,7 +126,6 @@ content:
 
   - title: A Little More About Me
     layout: text
-    border: weak
     content: | # this will include new lines to allow paragraphs
       Besides of my passion for technology my other interests and hobbies include
       - [Outdoor Sports](https://www.strava.com/athletes/mrgregor)
