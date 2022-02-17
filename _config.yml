@@ -12,7 +12,7 @@ email: office@gkoenig.com
 website: www.gkoenig.com
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 # github_username:  sproogen
@@ -48,21 +48,20 @@ twitter_username: gkoenig
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I am a professional, self-motivated, and open-minded person with experience as engineering manager, software engineer, international project manager, and lecturer. I am passionate about technology and developing amazing solutions together with like-minded people. It is highly rewarding to support people in their professional journey and help them grown, thrive and prosper. 
+  Hi, I am a professional, self-motivated, and open-minded person with experience as **engineering manager**, **software engineer**, international **project manager**, and **lecturer**. I am passionate about technology and developing amazing solutions together with like-minded people. It is highly rewarding to support people in their professional journey and help them grown, thrive, and prosper. 
   
   My technological focus lies on the research and development of secure communication and connectivity, (bio-)signal-processing, safety-critical embedded real-time systems, and their application in different fields. 
   
-  I love science and I hold a PhD in Biomedical Engineering.
+  I love **science** and I hold a **PhD** in Biomedical Engineering.
 
 content:
-  - title: Professional Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Professional Experience
+    layout: list
     content:
       - layout: left
         border: weak
         title: Barracuda Networks
         link: barracuda.com
-        # link_text: boringcompany.com
         sub_title: Engineering Lead
         caption: 2013 - Present
         quote: >
@@ -72,7 +71,6 @@ content:
         border: weak
         title: University of Applied Sciences Technikum Wien
         link: www.technikum-wien.at
-        # link_text: boringcompany.com
         sub_title: Lecturer
         caption: 2014 - 2018
 
@@ -80,23 +78,25 @@ content:
         border: weak
         title: Austrian Institute of Technology
         link: ait.ac.at
-        # link_text: boringcompany.com
         sub_title: Research Fellow, Postdoctoral Researcher
         caption: 2009 - 2012
-        description: | # this will include new lines to allow paragraphs
+        quote: >
+          Austria’s largest Research and Technology Organisation and leading development partner for the industry and a top employer within the international scientific community.
+        description: |
              At the AIT I had the opportunity to work on my PhD research as a scientist in the field of bio-signal processing for medical devices. I also worked on other safety-critical aspects of medical products. During these four years I finished my PhD thesis at the Medical University of Vienna and was a lecturer at the Technical University of Vienna.
 
       - layout: left
         title: Frequentis AG
         link: frequentis.com
-        # link_text: boringcompany.com
         sub_title: System Software Engineer
         caption: 2005 - 2008
         quote: >
           The leading global supplier of communication & information solutions for safety-critical applications.
+        description: |
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+
+  - title: Education
+    layout: list
     content:
       - layout: left
         border: weak
@@ -105,7 +105,7 @@ content:
         sub_title: PhD Biomedical Engineering
         quote: >
           The Medical University of Vienna is the largest medical organisation in Austria, as well as one of the top-level research institutions in Europe and provides Europe's largest hospital, the Vienna General Hospital. There have been seven Nobel prize laureates affiliated with the medical faculty, and fifteen in total with the University of Vienna.
-        description: | # this will include new lines to allow paragraphs
+        description: |
           During my time at Medical University if Vienna I did my PhD research in the field of bio-signal analysis (EEG, EOG, EMG) and the quantification of sleepiness and sleep quality. In 2012 I successfully finished my research and defended my [PhD thesis](https://www.amazon.de/EEG-based-Model-Daytime-Vigilance-Trends/dp/3838150848).
 
       - layout: left
@@ -114,25 +114,26 @@ content:
         sub_title: MSc and BSc Computer Science
 
   - title: Philanthropic Activities
-    layout: list # Type of content section (list/text)
+    layout: list
     content:
       - layout: top-middle
         title: Feigenhain Initiative
         link: feigenhain.org
         caption: 2018 - Present
         sub_title: Founding Member
-        description: | # this will include new lines to allow paragraphs
+        description: |
           The Feigenhain Initiative is a non-governmental non-profit organisation registered in France, with activities in Brazil, France and Austria. Our campaigns focus on humanitarian aid and cooperation, protection of the natural environment.
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       Besides of my passion for technology my other interests and hobbies include
       - [Outdoor Sports](https://www.strava.com/athletes/mrgregor)
       - [Calisthenics](https://stevenlow.org/overcoming-gravity/)
       - [Running](https://www.schoenbrunn.at/)
       - [Cycling](https://www.zwift.com/eu/athlete/61ae74ef-85af-47df-ae48-9f0ef028e34b)
-      - [Ilex paraguariensis](https://en.wikipedia.org/wiki/Yerba_mate)	
+      - [Ilex paraguariensis](https://en.wikipedia.org/wiki/Yerba_mate)
+      - [Tango Argentino](https://open.spotify.com/playlist/37i9dQZF1DXcCT9tm6fRIV?si=49ef9bbc31b84c6b)
       
 # Footer
 footer_show_references: false
